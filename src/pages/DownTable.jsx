@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 import { getDataAPI } from '../services/allAPIS';
-import { jsPDF } from "jspdf";
+// import { jsPDF } from "jspdf";
+// Instead of import, use:
+const { jsPDF } = window.jspdf;
 import html2canvas from 'html2canvas'
 
 function DownTable( {year,show}) {
