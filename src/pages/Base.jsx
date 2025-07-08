@@ -50,7 +50,7 @@ setShow(false);
     <div>
             <div className='m-2 d-flex justify-content-end px-5 '>
               <Button variant="primary" onClick={handleShow}>
-              Add donaction
+              Add donation
               </Button>       
              </div>
       <Modal
